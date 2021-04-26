@@ -1,4 +1,4 @@
-package com.howliked.structure.linkedlist.virtual;
+package com.howliked.structure.linkedlist;
 
 import com.howliked.structure.linkedlist.ListNode;
 
@@ -22,10 +22,7 @@ public class VirtualHeadListNode {
     }
 
     private static ListNode removeElement(ListNode head, int val) {
-        while (head.next != null) {
-            if (head.next.val == val) {
-                head.next = head.next.next;
-            }
+        while (head != null && head.val == val) {
             head = head.next;
         }
         return head;
