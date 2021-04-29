@@ -14,6 +14,7 @@
         <module>string-structure-algorithm</module>
         <module>stack-queue-structure-algorithm</module>
         <module>binary-tree-structure-algorithm</module>
+        <module>linked-list-structure-algorithm</module>
     </modules>
 
     <properties>
