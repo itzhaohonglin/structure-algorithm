@@ -10,9 +10,10 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>array-structure-algorithm</module>
-        <module>linked-list-structure-algorithm</module>
         <module>hash-structure-algorithm</module>
         <module>string-structure-algorithm</module>
+        <module>stack-queue-structure-algorithm</module>
+        <module>binary-tree-structure-algorithm</module>
     </modules>
 
     <properties>
