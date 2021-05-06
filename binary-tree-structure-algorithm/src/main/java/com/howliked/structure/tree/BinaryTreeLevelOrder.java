@@ -3,7 +3,7 @@ package com.howliked.structure.tree;
 import java.util.*;
 import java.util.concurrent.LinkedBlockingQueue;
 
-public class BinaryLevelOrder {
+public class BinaryTreeLevelOrder {
     public static void main(String[] args) {
         TreeNode treeNode = new TreeNode(5);
         TreeNode leftNode = new TreeNode(4);
