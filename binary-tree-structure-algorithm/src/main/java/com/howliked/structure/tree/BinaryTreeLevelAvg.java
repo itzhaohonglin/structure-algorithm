@@ -14,20 +14,7 @@ import java.util.Queue;
  */
 public class BinaryTreeLevelAvg {
     public static void main(String[] args) {
-        TreeNode treeNode = new TreeNode(5);
-        TreeNode leftNode = new TreeNode(4);
-        TreeNode leftNodeChildren1 = new TreeNode(1);
-        TreeNode leftNodeChildren2 = new TreeNode(2);
-        TreeNode rightNode = new TreeNode(8);
-        TreeNode rightNodeChildren1 = new TreeNode(6);
-        TreeNode rightNodeChildren2 = new TreeNode(9);
-
-        treeNode.left = leftNode;
-        leftNode.left = leftNodeChildren1;
-        leftNode.right = leftNodeChildren2;
-        treeNode.right = rightNode;
-        rightNode.left = rightNodeChildren1;
-        rightNode.right = rightNodeChildren2;
+        TreeNode treeNode = TreeNode.getTreeNode();
         List<Double> result = averageOfLevels(treeNode);
         result.forEach(System.out::println);
     }

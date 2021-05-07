@@ -15,11 +15,7 @@ public class BinaryTreeTraversal {
 
 
     public static void main(String[] args) {
-        TreeNode treeNode = new TreeNode(10);
-        TreeNode leftNode = new TreeNode(5);
-        TreeNode rightNode = new TreeNode(8);
-        treeNode.left = leftNode;
-        treeNode.right = rightNode;
+        TreeNode treeNode = TreeNode.getTreeNode();
         List<Integer> result = new ArrayList<>();
         traversalByBack(treeNode, result);
         result.forEach(val -> {
