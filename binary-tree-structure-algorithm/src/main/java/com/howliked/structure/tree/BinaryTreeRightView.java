@@ -26,9 +26,9 @@ public class BinaryTreeRightView {
                 if (i == (size - 1)) {
                     result.add(node.val);
                 }
-                //if (node.left != null) {
-                //    queue.offer(node.left);
-                //}
+                if (node.left != null) {
+                    queue.offer(node.left);
+                }
                 if (node.right != null) {
                     queue.offer(node.right);
                 }
