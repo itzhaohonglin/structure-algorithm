@@ -25,7 +25,7 @@ public class TreeNode {
     }
 
     public static TreeNode getTreeNode() {
-        TreeNode treeNode = new TreeNode(5);
+        TreeNode treeNode = new TreeNode(3);
         TreeNode leftNode = new TreeNode(4);
         TreeNode leftNodeChildren1 = new TreeNode(1);
         TreeNode leftNodeChildren2 = new TreeNode(2);
