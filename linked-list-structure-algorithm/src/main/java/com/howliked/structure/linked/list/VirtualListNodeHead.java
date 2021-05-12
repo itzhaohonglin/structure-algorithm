@@ -8,6 +8,6 @@ public class VirtualListNodeHead {
     private static ListNode virtualHeadNode(ListNode head) {
         ListNode dummyNode = new ListNode(0);
         dummyNode.next = head;
-        return dummyNode;
+        return dummyNode.next;
     }
 }

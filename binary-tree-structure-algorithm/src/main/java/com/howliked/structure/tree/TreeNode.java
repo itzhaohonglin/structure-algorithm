@@ -25,20 +25,19 @@ public class TreeNode {
     }
 
     public static TreeNode getTreeNode() {
-        TreeNode treeNode = new TreeNode(3);
+        TreeNode root = new TreeNode(10);
         TreeNode leftNode = new TreeNode(4);
         TreeNode leftNodeChildren1 = new TreeNode(1);
-        TreeNode leftNodeChildren2 = new TreeNode(2);
+        TreeNode leftNodeChildren2 = new TreeNode(5);
         TreeNode rightNode = new TreeNode(8);
         TreeNode rightNodeChildren1 = new TreeNode(6);
         TreeNode rightNodeChildren2 = new TreeNode(9);
-
-        treeNode.left = leftNode;
+        root.left = leftNode;
         leftNode.left = leftNodeChildren1;
         leftNode.right = leftNodeChildren2;
-        treeNode.right = rightNode;
+        root.right = rightNode;
         rightNode.left = rightNodeChildren1;
         rightNode.right = rightNodeChildren2;
-        return treeNode;
+        return root;
     }
 }
