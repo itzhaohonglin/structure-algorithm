@@ -13,7 +13,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>array-binary-search</module>
-        <module>array-fast-slow-pointer</module>
+        <module>array-remove-element</module>
         <module>array-sliding-window</module>
         <module>array-helix-matrix</module>
     </modules>
