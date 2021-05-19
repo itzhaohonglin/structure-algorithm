@@ -42,8 +42,7 @@ public class StackSimulateQueue<T> {
     public T pop() {
         if (stOut.empty()) {
             while (!stIn.empty()) {
-                stOut.push(stIn.peek());
-                stIn.pop();
+                stOut.push(stIn.pop());
             }
         }
         T pop = stOut.pop();
