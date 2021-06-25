@@ -41,7 +41,7 @@ public class ArrayBinarySearch {
         int right = length - 1;
         while (left <= right) {
             //二分查找，从中间开始找,一分为2
-            int middle = (right + left) / 2;
+            int middle = left + ((right - left) >> 1);
             if (array[middle] > target) { //中值比目标值大,则去左边查
                 right = middle - 1;     //比中值大,肯定在[left,middle)之间,所以最大值为中间位置-1
             } else if (array[middle] < target) {    //中值比目标值小,则去右边查找
