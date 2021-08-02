@@ -25,19 +25,21 @@ public class QueueSimulateStack<T> {
         while (queue.size() > 1) {
             help.offer(queue.poll());
         }
+        T poll = queue.poll();
         Queue<T> temp = queue;
-        help = queue;
-        queue = temp;
-        return queue.poll();
+        queue = help;
+        help = temp;
+        return poll;
     }
 
     public T peek() {
         while (queue.size() > 1) {
             help.offer(queue.poll());
         }
+        T peek = queue.peek();
         Queue<T> temp = queue;
-        help = queue;
-        queue = temp;
-        return queue.peek();
+        queue = help;
+        help = temp;
+        return peek;
     }
 }
