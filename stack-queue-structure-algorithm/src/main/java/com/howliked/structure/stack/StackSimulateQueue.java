@@ -26,8 +26,8 @@ import java.util.Stack;
  * 最后如何判断队列为空呢？「如果进栈和出栈都为空的话，说明模拟的队列为空了。」
  */
 public class StackSimulateQueue<T> {
-    private Stack<T> stIn;
-    private Stack<T> stOut;
+    private Stack<T> stIn;  //入栈
+    private Stack<T> stOut; //出栈
 
     public StackSimulateQueue() {
         stIn = new Stack<>();
@@ -40,11 +40,13 @@ public class StackSimulateQueue<T> {
     }
 
     public T pop() {
+        //1.出栈为空,则一次发生 将入栈中的数据全部压入到出栈中
         if (stOut.empty()) {
             while (!stIn.empty()) {
                 stOut.push(stIn.pop());
             }
         }
+        //取出栈数据
         T pop = stOut.pop();
         return pop;
     }
