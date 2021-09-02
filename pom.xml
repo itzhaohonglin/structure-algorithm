@@ -15,6 +15,7 @@
         <module>stack-queue-structure-algorithm</module>
         <module>binary-tree-structure-algorithm</module>
         <module>linked-list-structure-algorithm</module>
+        <module>merge-sort-algorithm</module>
     </modules>
 
     <properties>
