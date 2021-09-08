@@ -3,7 +3,7 @@ package com.howliked.structure.algorithm.sort;
 /**
  * 逆序对
  */
-public class Code03_ReversePair {
+public class MergeSort03_ReversePair {
     public static void main(String[] args) {
         int[] array = new int[]{3, 2, 4, 1, 5};
         System.out.println(process(array, 0, array.length - 1));

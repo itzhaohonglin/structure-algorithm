@@ -11,7 +11,7 @@ package com.howliked.structure.algorithm.sort;
  * 5左边比5小的元素：2,3,4,1
  * 小和small_sum = 2 + 2 + 3 + 2 + 3 + 4 + 1 = 17
  */
-public class Code02_SmallSum {
+public class MergeSort02_SmallSum {
     public static void main(String[] args) {
         int[] array = new int[]{2, 3, 4, 1, 5};
         System.out.println(process(array, 0, array.length - 1));

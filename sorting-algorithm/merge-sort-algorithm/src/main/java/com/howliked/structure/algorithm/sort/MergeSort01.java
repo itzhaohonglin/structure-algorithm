@@ -3,7 +3,7 @@ package com.howliked.structure.algorithm.sort;
 /**
  * 归并排序
  */
-public class Code01_MergeSort {
+public class MergeSort01 {
     public static void main(String[] args) {
         int[] array = new int[]{5, 2, 3, 1, 2};
         process(array, 0, array.length - 1);

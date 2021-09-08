@@ -5,7 +5,7 @@ package com.howliked.structure.algorithm.sort;
  * num的右边有多少个数*2后依然比num小
  * [1,3,0,4,3,1]
  */
-public class Code04_BiggerThanRightTwice {
+public class MergeSort04_BiggerThanRightTwice {
     public static void main(String[] args) {
         int[] array = new int[]{1, 3, 0, 4, 3, 1};
         System.out.println(process(array, 0, array.length-1));
