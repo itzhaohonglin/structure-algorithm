@@ -9,14 +9,10 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>merge-sort-algorithm</artifactId>
-    <dependencies>
-        <dependency>
-            <groupId>org.jetbrains</groupId>
-            <artifactId>annotations</artifactId>
-            <version>RELEASE</version>
-            <scope>compile</scope>
-        </dependency>
-    </dependencies>
+    <artifactId>sorting-algorithm</artifactId>
+    <packaging>pom</packaging>
 
+    <modules>
+        <module>merge-sort-algorithm</module>
+    </modules>
 </project>
