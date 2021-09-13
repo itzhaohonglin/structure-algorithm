@@ -9,12 +9,6 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>sorting-algorithm</artifactId>
-    <packaging>pom</packaging>
+    <artifactId>heap-sort-algorithm</artifactId>
 
-    <modules>
-        <module>merge-sort-algorithm</module>
-        <module>quick-sort-algorithm</module>
-        <module>heap-sort-algorithm</module>
-    </modules>
 </project>
